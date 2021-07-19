@@ -1,6 +1,32 @@
 nav{
-    margin-left: 40px;
+    text-align: center;
 }
-.inpute{
-    margin-top: 30px;
+.buton{
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    
+}
+#box{
+  width: 30%;
+}
+.app{
+    background-color: black;
+    color: white;
+     width: 30%;
+     border-radius: 5px;
+}
+.color{
+    background-color: white;
+    text-align: center;
+}
+.color:hover{
+    background-color: red;
+}
+.buton{
+    display: flex;
+    justify-content: center;
 }

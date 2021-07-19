@@ -8,36 +8,43 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
-<body> 
-    <nav>
-        
+<body>
+    <nav> 
+    <div class="head">
+        <h1 class="app">CALCULATOR APP</h1>
+    </div>    
 <div class="inpute">
-    <input id="box" type="text">
+    <input  id="box" type="text">
 </div>
-    <div>
-    <input onclick="getValue(this.value)" type="button" value='1'class="bg-danger">
-    <input onclick="getValue(this.value)" type="button"value='2'class="bg-danger">
-    <input onclick="getValue(this.value)" type="button"value='3'class="bg-danger">
-    <input onclick="getValue(this.value)" type="button"value='4'class="bg-danger">
+  <br>
+  <span>
+    <div class="buton">
+    <input onclick="getValue(this.value)" type="button" value='1' class="color">
+    <input onclick="getValue(this.value)" type="button"value='2' class="color">
+    <input onclick="getValue(this.value)" type="button"value='3' class="color">
+    <input onclick="getValue(this.value)" type="button"value='4' class="color">
 </div>
-<div>
-    <input onclick="getValue(this.value)" type="button"value='5'class="bg-danger">
-    <input onclick="getValue(this.value)" type="button"value='6'class="bg-danger">
-    <input onclick="getValue(this.value)" type="button"value='7'class="bg-danger">
-    <input onclick="getValue(this.value)" type="button"value='8'class="bg-danger">
+<div class="buton">
+    <input onclick="getValue(this.value)" type="button"value='5' class="color">
+    <input onclick="getValue(this.value)" type="button"value='6' class="color">
+    <input onclick="getValue(this.value)" type="button"value='7' class="color">
+    <input onclick="getValue(this.value)" type="button"value='8' class="color">
 </div>
-<div>
-    <input onclick="getValue(this.value)" type="button"value='9'class="bg-danger">
-    <input onclick="getValue(this.value)" type="button"value='0'class="bg-danger">
-    <input onclick="getValue(this.value)" type="button"value='+'class="bg-danger">
-    <input onclick="getValue(this.value)" type="button"value='-'class="bg-danger">
+<div class="buton">
+    <input onclick="getValue(this.value)" type="button"value='9' class="color">
+    <input onclick="getValue(this.value)" type="button"value='0' class="color">
+    <input onclick="getValue(this.value)" type="button"value='+' class="color">
+    <input onclick="getValue(this.value)" type="button"value='-' class="color">
 </div>
-<div>
-    <input onclick="calculate()" type="button"value='='class="bg-danger">
-    <input onclick="getValue(this.value)" type="button"value='/'class="bg-danger">
-    <input onclick="getValue(this.value)" type="button"value='*'class="bg-danger">
+<div class="buton">
+    <input onclick="calculate()" type="button"value='=' class="color">
+    <input onclick="getValue(this.value)" type="button"value='/' class="color">
+    <input onclick="getValue(this.value)" type="button"value='*' class="color">
+    <input onclick="getvalue(this.value)" type="button"value="." class="color">
 </div>
+</span>
 </nav>
+
 </body>
 <script src="app.js"></script>
 </html>
